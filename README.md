@@ -23,3 +23,11 @@
 ###### GraphQL Types With Junpier
 
 ###### Setting up Rocket
+
+
+### Links
+- https://www.rust-lang.org/
+- https://graphql.org/
+- https://diesel.rs/
+- https://github.com/graphql-rust/juniper
+- https://rocket.rs/
