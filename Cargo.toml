@@ -1,0 +1,15 @@
+[package]
+name = "rust_graphql_study"
+version = "0.1.0"
+authors = ["HGimself <hgmaxwellking@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4"
+diesel = { version = "1.4.4", features = ["postgres", "r2d2"] }
+dotenv = "0.15.0"
+juniper = "0.15.4"
+juniper_rocket = "0.6.3"
+rocket = { version = "0.4.2", default-features = false }

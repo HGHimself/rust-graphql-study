@@ -1,0 +1,26 @@
+-- Your SQL goes here
+CREATE TABLE questions (
+    id SERIAL PRIMARY KEY,
+    header text,
+    status text,
+    user_id integer,
+    admin_user_id text,
+    answer text,
+    further_information text,
+    experiment text,
+    exploration text,
+    sources_links text,
+    is_answer integer,
+    image text,
+    created_at text,
+    updated_at text,
+    related_id text,
+    delta integer,
+    of_the_day integer,
+    author_name text,
+    author_link text,
+    author_id integer,
+    link text,
+    slug text,
+    product_recommendation_id text
+);
